@@ -1,0 +1,533 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  /* padding: 0; */
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+
+/* 調整用スタイル */
+
+a {
+  text-decoration: none;
+}
+
+
+ul,
+li {
+  list-style: none;
+}
+
+
+/* メイン */
+
+
+
+
+main {
+  background: linear-gradient(135deg, rgb(226, 212, 212),  rgb(60, 228, 13));
+  background: -webkit-linear-gradient(-45deg, rgb(243, 177, 177),  rgb(148, 245, 103));
+  background: -moz-linear-gradient(45deg, rgb(235, 230, 230),  rgb(128, 245, 167));
+  display: flex;
+  top: 80px;
+  padding-top: 10px;
+}
+
+
+.main {
+  display: inline;
+}
+
+
+.main__inner {
+  width: 100%;
+  height: 100vh;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+  opacity: 0.7;
+}
+
+
+.contents {
+  margin: 0;
+  padding: 0 40px;
+  background: linear-gradient(to right ,rgb(238, 0, 0), rgb(240, 130, 130));
+  text-align: center;
+  color: cornsilk;
+  line-height: 2;
+}
+
+.content1 {
+      background: linear-gradient(to left ,rgb(238, 0, 0), rgb(240, 130, 130));
+}
+
+
+iframe {
+  width: 150px;
+  height: 150px;
+}
+
+@media screen and (min-width: 730px){
+  iframe {
+    width: 400px;
+    height: 300px;
+  }
+}  
+
+.contents h1 {
+  font-size: 150%;
+}
+
+
+.main__inner div {
+  font-size: 15px;
+  margin: auto;
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+
+
+@media screen and (min-width: 730px){
+  .main__inner div {
+    font-size: 40px;
+  }
+}
+
+
+.main__inner h2{
+  padding: 20px 0;
+  font-size: 150%;
+  color:rgb(53, 252, 13);
+}
+
+
+.main__inner1 {
+  background-image: url(/images/background_image/IMG_1.JPG);
+}
+
+.main__inner2 {
+  background-image: url(/images/background_image/IMG_2.JPG);
+}
+
+
+.main__inner3 {
+  background-image: url(/images/background_image/IMG_3.JPG);
+}
+
+
+.main__inner4 {
+  background-image: url(/images/slideshow/2.jpg);
+}
+
+
+.main__inner5 {
+  background-image: url(/images/slideshow/3.jpg);
+}
+
+
+.main__inner6 {
+  background-image: url(/images/slideshow/4.jpg);
+}
+
+/* ヘッダー */
+
+
+.header {
+  background: linear-gradient(to left, rgb(3, 153, 3), rgb(171, 245, 121));
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+
+@media screen and (min-width: 960px) {
+  .header {
+    height: 80px;
+  }
+}
+
+
+.header__inner {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+  position: relative;
+}
+
+
+/* ヘッダーのロゴ部分 */
+.header__title {
+  width: 80px;
+}
+
+
+.header__title:hover {
+  opacity: 0.8;
+}
+
+
+@media screen and (min-width: 960px) {
+  .header__title {
+    width: 140px;
+  }
+}
+
+.header__title img {
+  display: block;
+  width: 50%;
+  height: 50%;
+}
+
+/* ヘッダーのナビ部分 */
+
+.header__nav {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  transform: translateX(100%);
+  background-color: #fff;
+  transition: ease .4s;
+  display: flex;
+}
+
+
+@media screen and (min-width: 960px) {
+  .header__nav {
+    position: static;
+    transform: initial;
+    background-color: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: end;
+    width: 50%;
+  }
+}
+
+
+.nav__items {
+  margin: auto;
+}
+
+@media screen and (min-width: 960px) {
+  .nav__items {
+    margin: initial;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: initial;
+    justify-content: space-between;
+  }
+}
+
+
+.nav-items__item {
+  cursor: pointer;
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+@media screen and (min-width: 960px) {
+
+  .nav-items__item:before {
+    position: absolute;
+    content: "";
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: orange;
+    opacity: 0;
+
+  }
+
+  .nav-items__item:hover:before {
+    opacity: 1;
+  }
+}
+
+
+
+/* ナビのリンク */
+.nav-items__item a {
+  color: black;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.nav-items__item:last-child a {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 960px) {
+  .nav-items__item a {
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+}
+
+
+/* メニュー */
+.header__info {
+  width: 48px;
+  height: 100%;
+}
+
+.info {
+  background-color: transparent;
+  border-color: transparent;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 960px) {
+  .info {
+    display: none;
+  }
+}
+
+
+/* イタリアンメニューの線 */
+.info span {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(247, 8, 8);
+  position: relative;
+  transition: ease .4s;
+  display: block;
+}
+
+.info span:nth-child(1) {
+  top: 0;
+}
+
+.info span:nth-child(2) {
+  margin: 10px 0;
+}
+
+
+.info span:nth-child(3) {
+  top: 0;
+}
+
+
+/* メニュークリック後のスタイル */
+.header__nav.active {
+  transform: translateX(0);
+}
+
+.info.active span:nth-child(1) {
+  top: 8px;
+  transform: rotate(45deg);
+}
+
+
+.info.active span:nth-child(2) {
+  opacity: 0;
+}
+
+
+.info.active span:nth-child(3) {
+  top: -14px;
+  transform: rotate(-50deg);
+}
+
+/* フッター */
+.footer {
+  display: flex;
+  background: linear-gradient(to right, rgb(3, 153, 3), rgb(171, 245, 121));
+  width: 100%;
+  height: 50px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+
+.footer div {
+  margin: auto;
+  font-style: italic;
+  color:antiquewhite;
+}
