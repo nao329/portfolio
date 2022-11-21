@@ -212,7 +212,7 @@ main {
 }
 
 
-@supports not (-webkit-touch-callout: none) {
+/* @supports not (-webkit-touch-callout: none) {
   .main__inner::before {
     position:fixed;
     top:0;
@@ -249,7 +249,7 @@ main {
     background: url(/images/slideshow/4.jpg);
   }
 }
-
+ */
 
 .contents {
   margin: 0;
