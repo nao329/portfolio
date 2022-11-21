@@ -267,31 +267,31 @@ iframe {
 
 
 .main__inner1 {
-  background: url(/images/background_image/IMG_1.JPG);
+  background-image: url(http://italiana.herokuapp.com/images/background_image/IMG_1.JPG);
 }
 
 .main__inner2 {
-  background: url(/images/background_image/IMG_2.JPG);
+  background-image: url(http://italiana.herokuapp.com/images/background_image/IMG_2.JPG);
 }
 
 
 .main__inner3 {
-  background: url(/images/background_image/IMG_3.JPG);
+  background-image: url(http://italiana.herokuapp.com/images/background_image/IMG_3.JPG);
 }
 
 
 .main__inner4 {
-  background-image: url(/images/slideshow/2.jpg);
+  background-image: url(http://italiana.herokuapp.com/images/slideshow/2.jpg);
 }
 
 
 .main__inner5 {
-  background-image: url(/images/slideshow/3.jpg);
+  background-image: url(http://italiana.herokuapp.com/images/slideshow/3.jpg);
 }
 
 
 .main__inner6 {
-  background-image: url(/images/slideshow/4.jpg);
+  background-image: url(http://italiana.herokuapp.com/images/slideshow/4.jpg);
 }
 
 /* ヘッダー */
