@@ -212,6 +212,45 @@ main {
 }
 
 
+@supports not (-webkit-touch-callout: none) {
+  .main__inner::before {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    width:100vw;
+    height:100vh;
+    -webkit-background-size:contain;
+    background-size:contain;
+    content:"";
+  } 
+  .main__inner1 {
+    background: url(/images/background_image/IMG_1.JPG);
+  }
+
+　.main__inner2 {
+    background: url(/images/background_image/IMG_2.JPG);
+  }
+
+　.main__inner3 {
+    background: url(/images/background_image/IMG_3.JPG);
+　}
+
+  .main__inner4 {
+    background: url(/images/slideshow/2.jpg);
+  }
+
+
+  .main__inner5 {
+    background: url(/images/slideshow/3.jpg);
+  }
+
+  .main__inner6 {
+    background: url(/images/slideshow/4.jpg);
+  }
+}
+
+
 .contents {
   margin: 0;
   padding: 0 40px;
@@ -272,7 +311,6 @@ iframe {
 .main__inner2 {
   background-image: url(/images/background_image/IMG_2.JPG);
 }
-
 
 .main__inner3 {
   background-image: url(/images/background_image/IMG_3.JPG);
