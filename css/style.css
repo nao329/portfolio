@@ -248,7 +248,6 @@ iframe {
   font-size: 15px;
   margin: auto;
   color: white;
-  font-style: italic;
   text-align: center;
 }
 
@@ -268,16 +267,16 @@ iframe {
 
 
 .main__inner1 {
-  background-image: url(/images/background_image/IMG_1.JPG);
+  background: url(/images/background_image/IMG_1.JPG);
 }
 
 .main__inner2 {
-  background-image: url(/images/background_image/IMG_2.JPG);
+  background: url(/images/background_image/IMG_2.JPG);
 }
 
 
 .main__inner3 {
-  background-image: url(/images/background_image/IMG_3.JPG);
+  background: url(/images/background_image/IMG_3.JPG);
 }
 
 
