@@ -212,7 +212,7 @@ main {
 }
 
 
-@supports not (-webkit-touch-callout: none) { 
+/* @supports not (-webkit-touch-callout: none) { 
   .main__inner1 {
     background: url(/images/background_image/IMG_1.JPG);
   }
@@ -238,7 +238,7 @@ main {
     background: url(/images/slideshow/4.jpg);
   }
 }
-
+ */
 .contents {
   margin: 0;
   padding: 0 40px;
