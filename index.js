@@ -1,7 +1,9 @@
-import { serve } from "https://deno.land/std@0.177.0/http/server.ts";
+import { Server } from "https://code4sabae.github.io/js/Server.js";
 
-serve((_req) => {
-    return new Response("/index.html", {
-        headers: {"content-type":"text/plain"},
-    });
-});
+class MyServer extends Server {
+  api(path, req) {
+    const time = new Date();
+    return { path, req,  time };
+  }
+}
+new MyServer(8881);
