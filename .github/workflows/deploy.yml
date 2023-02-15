@@ -19,4 +19,4 @@ jobs:
         with:
           project: nao329-portfolio # the name of the project on Deno Deploy
           entrypoint: https://deno.land/std/http/file_server.ts
-          root: index.html
+          root: dist
