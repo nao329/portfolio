@@ -18,4 +18,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: nao329-portfolio # the name of the project on Deno Deploy
-          entrypoint: portfolio/index.html # the entrypoint to deploy
+          entrypoint: https://deno.land/std/http/file_server.ts
+          root: dist
