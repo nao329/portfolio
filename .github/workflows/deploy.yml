@@ -18,4 +18,4 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: my-project # the name of the project on Deno Deploy
-          entrypoint: index.html # the entrypoint to deploy
+          entrypoint: /portfolio/index.html # the entrypoint to deploy
